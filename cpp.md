@@ -12,6 +12,7 @@
 ## Building with CMake
 
 ## Initialization
+- [cppreference - Initialization](https://en.cppreference.com/w/cpp/language/initialization)
 - [abseil / Tip of the Week #88: Initialization: =, (), and {}](https://abseil.io/tips/88)
 
 ## Error Handling
