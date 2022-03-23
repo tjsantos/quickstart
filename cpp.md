@@ -11,6 +11,11 @@
 ## Building with Makefiles
 ## Building with CMake
 
+## I/O
+- [`<iostream>`](https://en.cppreference.com/w/cpp/header/iostream)
+- [`std::getline`](https://en.cppreference.com/w/cpp/string/basic_string/getline)
+- [`std::stoi`](https://en.cppreference.com/w/cpp/string/basic_string/stol)
+
 ## Initialization
 - [cppreference - Initialization](https://en.cppreference.com/w/cpp/language/initialization)
 - [abseil / Tip of the Week #88: Initialization: =, (), and {}](https://abseil.io/tips/88)
