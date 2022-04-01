@@ -12,6 +12,13 @@
 ## Building with CMake
 
 ## I/O
+```
+// reading an integer from stdin
+int n;
+std::cin >> n;
+```
+- error checking [`basic_istream`](https://en.cppreference.com/w/cpp/io/basic_istream): `good()`, `bad()`, `fail()`, `eof()`, `operator bool()` (`!fail()`)
+- https://en.cppreference.com/w/cpp/io
 - [`<iostream>`](https://en.cppreference.com/w/cpp/header/iostream)
 - [`std::getline`](https://en.cppreference.com/w/cpp/string/basic_string/getline)
 - [`std::stoi`](https://en.cppreference.com/w/cpp/string/basic_string/stol)
