@@ -17,6 +17,15 @@
 int n;
 std::cin >> n;
 ```
+- https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-input/
+  - `std::cin` may fail and initialize with:
+    - 0, from invalid input
+    - nothing (keeps initial value), from being in failure mode
+    - closest in-range value, from overflow
+  - `std::cin` will read until invalid input. To ignore rest of line:
+```
+std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+```
 - error checking [`basic_istream`](https://en.cppreference.com/w/cpp/io/basic_istream): `good()`, `bad()`, `fail()`, `eof()`, `operator bool()` (`!fail()`)
 - https://en.cppreference.com/w/cpp/io
 - [`<iostream>`](https://en.cppreference.com/w/cpp/header/iostream)
