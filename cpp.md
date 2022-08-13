@@ -11,6 +11,17 @@
 ## Building with Makefiles
 ## Building with CMake
 
+## Initialization
+```
+std::vector<int> v = {1, 2, 3};  // initialize directly with data
+const auto t = T{};              // copy-list-initialization
+const auto* d5 = foo.GetData();  // explicit pointer, ensures pointer to const data
+```
+- [abseil / Tip of the Week #88: Initialization: =, (), and {}](https://abseil.io/tips/88)
+- https://herbsutter.com/2013/05/09/gotw-1-solution/
+- http://www.nuonsoft.com/blog/2018/07/06/const-auto-versus-const-auto-for-pointer-types/
+- [cppreference - Initialization](https://en.cppreference.com/w/cpp/language/initialization)
+
 ## I/O
 ```
 // reading an integer from stdin
@@ -31,10 +42,6 @@ std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 - [`<iostream>`](https://en.cppreference.com/w/cpp/header/iostream)
 - [`std::getline`](https://en.cppreference.com/w/cpp/string/basic_string/getline)
 - [`std::stoi`](https://en.cppreference.com/w/cpp/string/basic_string/stol)
-
-## Initialization
-- [cppreference - Initialization](https://en.cppreference.com/w/cpp/language/initialization)
-- [abseil / Tip of the Week #88: Initialization: =, (), and {}](https://abseil.io/tips/88)
 
 ## Error Handling
 - https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-errors
